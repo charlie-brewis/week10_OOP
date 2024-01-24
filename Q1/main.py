@@ -83,4 +83,11 @@ def testSquare():
     square.setFillColour("leopard print")
     print("square's fill colour is", square.fillColour)  # red
 
+    square.setOutlineColour("blue")
+    print(square.outlineColour)
+    square.setOutlineColour("gay")
+    print(square.outlineColour)
+
+testSquare()
+
     
