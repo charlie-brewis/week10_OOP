@@ -71,6 +71,8 @@ class Square():
         y = self.p1.getY() + self.side // 2
         return MyPoint(x, y)
     
+    # new
+    #! Not working yet
     def scale(self, factor: int) -> None:
         new_side_length = self.side * factor
         point_move_length = (self.side - new_side_length) / 2
