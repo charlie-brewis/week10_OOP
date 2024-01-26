@@ -42,7 +42,7 @@ class Aeroplane():
     
     def __str__(self):
         out = f"\nAeroplane object flying from {self.departure} to {self.destination}."
-        out += f"\n\nAltitude: {self.altitude}m\nFuel: {self.fuel}l"
+        out += f"\nAltitude: {self.altitude}m\nFuel: {self.fuel}l"
         return out 
     
 
@@ -57,6 +57,7 @@ def testPlane():
     plane.setDeparture("New York")
 
     plane.setDestination("London")
+    plane.setFuel(150000)
 
     plane.increaseAltitude()
     plane.decreaseAltitude()
