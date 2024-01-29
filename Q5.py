@@ -38,7 +38,7 @@ class Account():
     
 
 def testAccount():
-    matsAccount = Account("Matthew Poole", 0)
+    matsAccount = Account("Matthew Poole", 0, 0)
     matsAccount.deposit(100)
     matsAccount.withdraw(50)
     matsAccount.withdraw(100)
